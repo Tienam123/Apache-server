@@ -1,0 +1,4 @@
+Options Indexes
+DirectoryIndex _test.html
+IndexIgnore *.php
+Redirect 301 "/get.html" "/index.html"

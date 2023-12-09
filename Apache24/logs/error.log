@@ -46,3 +46,41 @@ pm_winnt:notice] [pid 12244:tid 344] AH00455: Apache/2.4.54 (Win64) configured -
 [Sat Dec 09 11:33:22.550491 2023] [mpm_winnt:notice] [pid 21272:tid 368] AH00418: Parent: Created child process 17832
 [Sat Dec 09 11:33:23.546556 2023] [mpm_winnt:notice] [pid 17832:tid 384] AH00354: Child: Starting 64 worker threads.
 [Sat Dec 09 11:33:24.558189 2023] [mpm_winnt:notice] [pid 11892:tid 336] AH00364: Child: All worker threads have exited.
+[Sat Dec 09 11:43:44.209157 2023] [authz_core:error] [pid 17832:tid 1196] [client 127.0.0.1:55594] AH01630: client denied by server configuration: D:/projects/Apache-server/Apache24/htdocs/.htaccess
+[Sat Dec 09 11:43:45.105173 2023] [authz_core:error] [pid 17832:tid 1196] [client 127.0.0.1:55594] AH01630: client denied by server configuration: D:/projects/Apache-server/Apache24/htdocs/.htaccess
+[Sat Dec 09 11:43:45.645582 2023] [authz_core:error] [pid 17832:tid 1196] [client 127.0.0.1:55594] AH01630: client denied by server configuration: D:/projects/Apache-server/Apache24/htdocs/.htaccess
+[Sat Dec 09 11:46:03.713107 2023] [authz_core:error] [pid 17832:tid 1196] [client 127.0.0.1:55636] AH01630: client denied by server configuration: D:/projects/Apache-server/Apache24/htdocs/.htaccess
+[Sat Dec 09 11:46:04.360664 2023] [authz_core:error] [pid 17832:tid 1196] [client 127.0.0.1:55636] AH01630: client denied by server configuration: D:/projects/Apache-server/Apache24/htdocs/.htaccess
+[Sat Dec 09 11:46:04.748081 2023] [authz_core:error] [pid 17832:tid 1196] [client 127.0.0.1:55636] AH01630: client denied by server configuration: D:/projects/Apache-server/Apache24/htdocs/.htaccess
+[Sat Dec 09 11:46:04.992044 2023] [authz_core:error] [pid 17832:tid 1196] [client 127.0.0.1:55636] AH01630: client denied by server configuration: D:/projects/Apache-server/Apache24/htdocs/.htaccess
+[Sat Dec 09 11:46:05.253147 2023] [authz_core:error] [pid 17832:tid 1196] [client 127.0.0.1:55636] AH01630: client denied by server configuration: D:/projects/Apache-server/Apache24/htdocs/.htaccess
+[Sat Dec 09 11:46:16.694771 2023] [authz_core:error] [pid 17832:tid 1196] [client 127.0.0.1:55637] AH01630: client denied by server configuration: D:/projects/Apache-server/Apache24/htdocs/.htaccess
+[Sat Dec 09 11:46:17.423487 2023] [authz_core:error] [pid 17832:tid 1196] [client 127.0.0.1:55637] AH01630: client denied by server configuration: D:/projects/Apache-server/Apache24/htdocs/.htaccess
+[Sat Dec 09 11:46:24.406127 2023] [mpm_winnt:notice] [pid 21272:tid 368] AH00424: Parent: Received restart signal -- Restarting the server.
+[Sat Dec 09 11:46:24.417432 2023] [mpm_winnt:notice] [pid 21272:tid 368] AH00455: Apache/2.4.54 (Win64) configured -- resuming normal operations
+[Sat Dec 09 11:46:24.417432 2023] [mpm_winnt:notice] [pid 21272:tid 368] AH00456: Apache Lounge VS16 Server built: Jun 22 2022 09:58:15
+[Sat Dec 09 11:46:24.417432 2023] [core:notice] [pid 21272:tid 368] AH00094: Command line: 'D:\\projects\\Apache-server\\Apache24\\bin\\httpd.exe -d D:/projects/Apache-server/Apache24'
+[Sat Dec 09 11:46:24.420425 2023] [mpm_winnt:notice] [pid 21272:tid 368] AH00418: Parent: Created child process 18748
+[Sat Dec 09 11:46:25.410489 2023] [mpm_winnt:notice] [pid 18748:tid 344] AH00354: Child: Starting 64 worker threads.
+[Sat Dec 09 11:46:26.424461 2023] [mpm_winnt:notice] [pid 17832:tid 384] AH00364: Child: All worker threads have exited.
+[Sat Dec 09 11:46:28.029942 2023] [autoindex:error] [pid 18748:tid 1196] [client 127.0.0.1:55638] AH01276: Cannot serve directory D:/projects/Apache-server/Apache24/htdocs/: No matching DirectoryIndex (index.html) found, and server-generated directory index forbidden by Options directive
+[Sat Dec 09 11:46:28.964977 2023] [autoindex:error] [pid 18748:tid 1196] [client 127.0.0.1:55638] AH01276: Cannot serve directory D:/projects/Apache-server/Apache24/htdocs/: No matching DirectoryIndex (index.html) found, and server-generated directory index forbidden by Options directive
+[Sat Dec 09 11:49:40.862484 2023] [mpm_winnt:notice] [pid 21272:tid 368] AH00424: Parent: Received restart signal -- Restarting the server.
+[Sat Dec 09 11:49:40.878385 2023] [mpm_winnt:notice] [pid 21272:tid 368] AH00455: Apache/2.4.54 (Win64) configured -- resuming normal operations
+[Sat Dec 09 11:49:40.878385 2023] [mpm_winnt:notice] [pid 21272:tid 368] AH00456: Apache Lounge VS16 Server built: Jun 22 2022 09:58:15
+[Sat Dec 09 11:49:40.878385 2023] [core:notice] [pid 21272:tid 368] AH00094: Command line: 'D:\\projects\\Apache-server\\Apache24\\bin\\httpd.exe -d D:/projects/Apache-server/Apache24'
+[Sat Dec 09 11:49:40.880403 2023] [mpm_winnt:notice] [pid 21272:tid 368] AH00418: Parent: Created child process 10804
+[Sat Dec 09 11:49:41.873258 2023] [mpm_winnt:notice] [pid 10804:tid 336] AH00354: Child: Starting 64 worker threads.
+[Sat Dec 09 11:49:42.887623 2023] [mpm_winnt:notice] [pid 18748:tid 344] AH00364: Child: All worker threads have exited.
+[Sat Dec 09 12:06:01.115298 2023] [autoindex:error] [pid 10804:tid 1196] [client 127.0.0.1:56057] AH01276: Cannot serve directory D:/projects/Apache-server/Apache24/htdocs/: No matching DirectoryIndex (_test.html) found, and server-generated directory index forbidden by Options directive
+[Sat Dec 09 12:06:02.310513 2023] [autoindex:error] [pid 10804:tid 1196] [client 127.0.0.1:56057] AH01276: Cannot serve directory D:/projects/Apache-server/Apache24/htdocs/: No matching DirectoryIndex (_test.html) found, and server-generated directory index forbidden by Options directive
+[Sat Dec 09 12:18:00.291764 2023] [core:alert] [pid 10804:tid 1196] [client 127.0.0.1:56157] D:/projects/Apache-server/Apache24/htdocs/.htaccess: Redirect to non-URL
+[Sat Dec 09 12:18:00.450662 2023] [core:alert] [pid 10804:tid 1196] [client 127.0.0.1:56158] D:/projects/Apache-server/Apache24/htdocs/.htaccess: Redirect to non-URL, referer: http://localhost/
+[Sat Dec 09 12:18:02.799433 2023] [core:alert] [pid 10804:tid 1196] [client 127.0.0.1:56161] D:/projects/Apache-server/Apache24/htdocs/.htaccess: Redirect to non-URL
+[Sat Dec 09 12:18:02.844293 2023] [core:alert] [pid 10804:tid 1196] [client 127.0.0.1:56162] D:/projects/Apache-server/Apache24/htdocs/.htaccess: Redirect to non-URL, referer: http://localhost/
+[Sat Dec 09 12:18:03.619471 2023] [core:alert] [pid 10804:tid 1196] [client 127.0.0.1:56163] D:/projects/Apache-server/Apache24/htdocs/.htaccess: Redirect to non-URL
+[Sat Dec 09 12:18:03.656126 2023] [core:alert] [pid 10804:tid 1196] [client 127.0.0.1:56164] D:/projects/Apache-server/Apache24/htdocs/.htaccess: Redirect to non-URL, referer: http://localhost/
+[Sat Dec 09 12:18:04.477653 2023] [core:alert] [pid 10804:tid 1196] [client 127.0.0.1:56165] D:/projects/Apache-server/Apache24/htdocs/.htaccess: Redirect to non-URL
+[Sat Dec 09 12:18:04.516602 2023] [core:alert] [pid 10804:tid 1196] [client 127.0.0.1:56166] D:/projects/Apache-server/Apache24/htdocs/.htaccess: Redirect to non-URL, referer: http://localhost/
+[Sat Dec 09 12:18:05.905115 2023] [core:alert] [pid 10804:tid 1196] [client 127.0.0.1:56167] D:/projects/Apache-server/Apache24/htdocs/.htaccess: Redirect to non-URL
+[Sat Dec 09 12:18:05.948795 2023] [core:alert] [pid 10804:tid 1196] [client 127.0.0.1:56168] D:/projects/Apache-server/Apache24/htdocs/.htaccess: Redirect to non-URL, referer: http://localhost/
